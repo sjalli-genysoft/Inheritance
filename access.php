@@ -13,7 +13,7 @@ class Fruit {
 
 class carrot extends Fruit {   
   public function message() {
-    echo "Am I a fruit or a vegetable? ";   
+    echo "Am I a fruit or a vegetable or both? ";   
     // Call protected function from within derived class - OK 
     $this -> intro();   
   }   
